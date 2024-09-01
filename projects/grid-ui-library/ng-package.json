@@ -1,0 +1,25 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/grid-ui-library",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "styleIncludePaths": [
+      "node_modules/ag-grid-community/dist/styles"
+    ]
+  }
+  ,
+  "whitelistedNonPeerDependencies": [
+    "@angular/animations",
+    "@angular/common",
+    "@angular/core",
+    "@angular/compiler",
+    "@angular/forms",
+    "@angular/platform-browser",
+    "@angular/platform-browser-dynamic",
+    "@angular/router",
+    "rxjs",
+    "tslib",
+    "ag-grid-angular",
+    "ag-grid-community"
+  ]
+}
